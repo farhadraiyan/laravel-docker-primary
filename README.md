@@ -33,9 +33,9 @@ This app will be fine if you have composer and php installed on your machine and
 And it is very important to have a .env file in laravel src folder, because it is gitignored.
 
 ## Steps to clone and run the project:
-`Create a .env file at laravel src folder`.
-`Run "composer install from laravel src where json files.`
-`Finally go up directory where is yaml file and run "docker-compose up`.
+```Create a .env file at laravel src folder```.
+```Run "composer install from laravel src where json files.```
+```Finally go up directory where is yaml file and run "docker-compose up```.
 
 Still There is a lot of issues, We will eliminate these issues in another tutorial. 
 
