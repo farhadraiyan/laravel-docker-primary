@@ -25,15 +25,9 @@ Navigate to the '/backend/php/src' install all dependancies with "composer insta
 ```
 And finally go the root dir of this project where the docker-compose.yaml file is and hit "docker-compose up" from command line. 
 ```
+Now you will see the default laravel app running on localhost:8080.
 
-## Limitations
+### Limitations
 
 This app will be fine if you have composer installed on your machine and if you are willing to take one step ("composer install") more before docker-compose up.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
