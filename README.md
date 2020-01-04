@@ -29,5 +29,13 @@ Now you will see the default laravel app running on localhost:8080.
 
 ### Limitations
 
-This app will be fine if you have composer installed on your machine and if you are willing to take one step ("composer install") more before docker-compose up.
+This app will be fine if you have composer and php installed on your machine and if you are willing to take one step ("composer install") more before docker-compose up.
+And it is very important to have a .env file in laravel src folder, because it is gitignored.
+
+## Steps to clone and run the project:
+`Create a .env file at laravel src folder`.
+`Run "composer install from laravel src where json files.`
+`Finally go up directory where is yaml file and run "docker-compose up`.
+
+Still There is a lot of issues, We will eliminate these issues in another tutorial. 
 
